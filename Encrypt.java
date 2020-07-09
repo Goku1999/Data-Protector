@@ -21,7 +21,7 @@ class Encrypt
             }
             for(int x=0;x<ar.length;x++)
             {
-                ar[x]=(byte)(ar[x]^n);
+                //encryption using key
             }
             FileOutputStream fout=new FileOutputStream(f);
             fout.write(ar);
